@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+<body>
+
+<div id="header"></div>
+
+<div class="dashboard">
+
+  <aside class="sidebar">
+    <h3>Menu</h3>
+    <ul>
+      <li class="active">Dashboard</li>
+      <li>Portfolio</li>
+      <li>Wishlist</li>
+      <li>Profile</li>
+    </ul>
+  </aside>
+
+  <main class="main-content">
+
+    <section class="hero">
+      <h1>Crypto Market</h1>
+      <p>Track top cryptocurrencies in real time.</p>
+
+      <input type="text" id="searchInput" placeholder="Search coin..." />
+    </section>
+
+    <div id="loading">Loading data...</div>
+
+    <section class="card-grid" id="cardGrid"></section>
+
+  </main>
+</div>
+
+<div id="footer"></div>
+
+<script src="/js/loader.js"></script>
+<script type="module" src="/js/dashboard.js"></script>
+
+</body>
+</html>

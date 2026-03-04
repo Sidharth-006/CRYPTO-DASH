@@ -1,0 +1,50 @@
+.hero h1 {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.hero input {
+  padding: 10px;
+  width: 250px;
+  margin-top: 15px;
+  background: #1e293b;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+#loading {
+  margin: 20px 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.dashboard-card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  border: 1px solid #facc15;
+}
+
+.coin-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.positive {
+  color: #22c55e;
+}
+
+.negative {
+  color: #ef4444;
+}
