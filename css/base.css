@@ -9,3 +9,36 @@ body {
   background: #0c1222;
   color: white;
 }
+
+/* Default Dark Theme */
+body {
+  background: #0f172a;
+  color: rgb(221, 221, 217);
+  transition: all 0.3s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #1e293b;
+}
+
+.theme-btn {
+  padding: 6px 12px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Light Mode */
+body.light-mode {
+  background: #f6f6f2;
+  color: #111111;
+}
+
+body.light-mode .header {
+  background: #f8f4f4;
+}
