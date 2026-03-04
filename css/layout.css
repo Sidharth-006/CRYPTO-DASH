@@ -30,3 +30,33 @@
   flex: 1;
   padding: 40px;
 }
+
+/* Toggle Button */
+.theme-toggle {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  transition: 0.3s;
+}
+
+.theme-toggle:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Light Mode */
+.light-mode {
+  background: #f5f5f5;
+  color: #111;
+}
+
+.light-mode .header {
+  background: #ffffff;
+}
+
+.light-mode .theme-toggle {
+  color: #111;
+}
